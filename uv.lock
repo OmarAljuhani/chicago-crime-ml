@@ -638,6 +638,41 @@ wheels = [
 ]
 
 [[package]]
+name = "chicago-crime-ml"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "albumentations" },
+    { name = "ipykernel" },
+    { name = "jupyter" },
+    { name = "matplotlib" },
+    { name = "mlflow" },
+    { name = "numpy" },
+    { name = "opencv-python" },
+    { name = "pandas" },
+    { name = "scikit-learn" },
+    { name = "timm" },
+    { name = "torch" },
+    { name = "torchvision" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "albumentations", specifier = ">=2.0.8" },
+    { name = "ipykernel", specifier = ">=7.4.0" },
+    { name = "jupyter", specifier = ">=1.1.1" },
+    { name = "matplotlib", specifier = ">=3.11.2" },
+    { name = "mlflow", specifier = ">=3.18.0" },
+    { name = "numpy", specifier = ">=2.5.4" },
+    { name = "opencv-python", specifier = ">=5.0.0.93" },
+    { name = "pandas", specifier = ">=3.1.1" },
+    { name = "scikit-learn", specifier = ">=1.9.1" },
+    { name = "timm", specifier = ">=1.0.31" },
+    { name = "torch", specifier = ">=2.15.0" },
+    { name = "torchvision", specifier = ">=0.29.2" },
+]
+
+[[package]]
 name = "click"
 version = "8.5.1"
 source = { registry = "https://pypi.org/simple" }
@@ -890,41 +925,6 @@ nvrtc = [
 ]
 nvtx = [
     { name = "nvidia-nvtx", marker = "platform_machine == 'aarch64' or platform_machine == 'x86_64'" },
-]
-
-[[package]]
-name = "cv-project"
-version = "0.1.0"
-source = { editable = "." }
-dependencies = [
-    { name = "albumentations" },
-    { name = "ipykernel" },
-    { name = "jupyter" },
-    { name = "matplotlib" },
-    { name = "mlflow" },
-    { name = "numpy" },
-    { name = "opencv-python" },
-    { name = "pandas" },
-    { name = "scikit-learn" },
-    { name = "timm" },
-    { name = "torch" },
-    { name = "torchvision" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "albumentations", specifier = ">=2.0.8" },
-    { name = "ipykernel", specifier = ">=7.4.0" },
-    { name = "jupyter", specifier = ">=1.1.1" },
-    { name = "matplotlib", specifier = ">=3.11.2" },
-    { name = "mlflow", specifier = ">=3.18.0" },
-    { name = "numpy", specifier = ">=2.5.4" },
-    { name = "opencv-python", specifier = ">=5.0.0.93" },
-    { name = "pandas", specifier = ">=3.1.1" },
-    { name = "scikit-learn", specifier = ">=1.9.1" },
-    { name = "timm", specifier = ">=1.0.31" },
-    { name = "torch", specifier = ">=2.15.0" },
-    { name = "torchvision", specifier = ">=0.29.2" },
 ]
 
 [[package]]
